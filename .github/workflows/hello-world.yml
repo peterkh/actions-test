@@ -6,7 +6,8 @@ on:
 
 jobs:
   hello:
-    - name: Echo hello world
-      run: |
-        echo "Hello world"
+    steps:
+      - name: Echo hello world
+        run: |
+          echo "Hello world"
 
