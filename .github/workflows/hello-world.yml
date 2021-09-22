@@ -1,0 +1,12 @@
+name: Hello World
+
+on:
+  push:
+    branch: [main]
+
+jobs:
+  hello:
+    - name: Echo hello world
+      run: |
+        echo "Hello world"
+
